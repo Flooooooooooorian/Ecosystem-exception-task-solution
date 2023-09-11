@@ -11,5 +11,7 @@ public class Main {
         Student savedStudent = studentService.addNewStudent(newStudent);
 
         System.out.println("Student saved: " + savedStudent);
+
+        System.out.println(studentService.findById("asd"));
     }
 }
